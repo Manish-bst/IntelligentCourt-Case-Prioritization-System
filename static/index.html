@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligent Court Case Prioritization System</title>
+  <meta name="description" content="Priority scoring, workflow, and case analytics for court administration.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-block">
+        <img src="logo.png" alt="CASE Logo" class="brand-logo" />
+        <h1>Intelligent Court Case Prioritization System</h1>
+      </div>
+      <button type="button" onclick="logout()" id="logout-btn" class="hidden">Logout</button>
+    </header>
+
+    <section id="auth-section" class="auth-wrap">
+      <div class="auth-layout">
+        <div class="auth-visual">
+          <img src="auth_illustration.png" alt="Justice Scales UI Illustration" class="auth-illustration-img" />
+        </div>
+        <div class="auth-forms">
+          <div class="auth-tabs">
+            <button type="button" id="tab-signup" class="auth-tab active" onclick="showAuthTab('signup')">1. Sign up</button>
+            <button type="button" id="tab-login" class="auth-tab" onclick="showAuthTab('login')">2. Log in</button>
+          </div>
+
+      <div id="panel-signup" class="card auth-panel">
+        <h2>Create account</h2>
+        <p class="muted">Register as Citizen or Judge. Admin cannot be registered.</p>
+        <input id="signup-username" type="text" data-autocap="1" placeholder="Username" autocomplete="username" />
+        <input id="signup-password" type="password" placeholder="Password" autocomplete="new-password" />
+        <select id="signup-role">
+          <option value="user">Citizen</option>
+          <option value="judge">Judge</option>
+        </select>
+        <button type="button" onclick="signup()">Sign up</button>
+      </div>
+
+      <div id="panel-login" class="card auth-panel hidden">
+        <h2>Log in</h2>
+        <input id="login-username" type="text" placeholder="Username" autocomplete="username" />
+        <input id="login-password" type="password" placeholder="Password" autocomplete="current-password" />
+        <select id="login-role">
+          <option value="admin">Admin</option>
+          <option value="user">Citizen</option>
+          <option value="judge">Judge</option>
+        </select>
+        <button type="button" onclick="login()">Log in</button>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <div id="dashboard" class="hidden">
+      <h2 id="dashboard-title" class="dash-title">Dashboard</h2>
+      <div id="dashboard-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
