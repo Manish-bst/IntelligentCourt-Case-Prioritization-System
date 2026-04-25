@@ -20,7 +20,7 @@ async function apiCall(endpoint, options = {}) {
   delete config.isFormData;
 
   try {
-    const res = await fetch(`http://localhost:5000${endpoint}`, config);
+    const res = await fetch(endpoint, config);
     const data = await res.json().catch(() => ({}));
     if (
       res.status === 401 &&
