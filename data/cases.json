@@ -193,18 +193,18 @@
     "judge_id": "05cf2b2b",
     "case_type": "criminal",
     "urgency_factor": 15,
-    "workflow_stage": "assigned",
-    "status": "open",
-    "summary": "",
-    "punishment": "",
-    "verdict": "",
+    "workflow_stage": "archived",
+    "status": "closed",
+    "summary": "[AI-style digest] Key points extracted from the filing:\n\nTo, The Station House Officer (SHO), Kankar Khera Police Station, Meerut, Uttar Pradesh \u2013 250001 Date: March 22, 2026 Subject: Registration of FIR regarding the brutal murder of my uncle, Mr. Anil Verma. Details of the Complainant: \u2022 Name: Megha Verma \u2022 Daughter of: Mr. Sunil Verma \u2022 Current Address: House No. 84, Kankar Khera, Meerut, Uttar Pradesh \u2022 Contact Number: +91 -98765XXXXX Details of the Deceased (Victim): \u2022 Name: Mr. Anil Verma (Paternal Uncle / Chacha ) \u2022 Age: 45 years \u2022 Address: House No. 86, Kankar Khera, Meerut, Uttar Pradesh Details of the Accused: \u2022 Unknown Person(s) Respected Sir/Madam, I, Megha Verma, am writing to you with a heavy heart and in a state of deep shock to report the gruesome murder of my paternal uncle, Mr. Anil Verma, who resided adjacent to our family home. I wish to bring the following facts to your urgent attention: 1. Discovery of the Incident: This morning, March 22, 2026, at approximately 8:30 AM, I went to my uncle's house to deliver his morning tea, as he lived alone. I found the front door slightly ajar, which was unusual. 2. Crime Scene Details: Upon entering the living room, I discovered my uncle lying on the floor in a pool of blood.\u2026\n\n(Generated from the PDF text; review the full document for accuracy.)",
+    "punishment": "Online India Code references for \"murder\" (Bharatiya Nyaya Sanhita, 2023):\n- Section (context): 89. Causing miscarriage without woman's consent. 90. Death caused by act done with intent to cause miscarriage. 91. Act done with intent to prevent child being born alive or to cause to die after birth. 92. Causing death...\n- Section (context): done with intent to prevent child being born alive or to cause to die after birth. 92. Causing death of quick unborn child by act amounting to culpable homicide. Of offences against child 93. Exposure and abandonment of ...\n- Section (context): hild being born alive or to cause to die after birth. 92. Causing death of quick unborn child by act amounting to culpable homicide. Of offences against child 93. Exposure and abandonment of child under twelve years of a...\n- Section (context): unborn child by act amounting to culpable homicide. Of offences against child 93. Exposure and abandonment of child under twelve years of age, by parent or person having care of it. 94. Concealment of birth by secret dis...\nSource: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf\nNote: Auto-extracted educational output; verify with official bare act text.",
+    "verdict": "20 Years Of Impresenment",
     "pdf_path": "uploads\\bd1a8482_megha murder.pdf",
     "hearing_date": null,
-    "closure_request_note": "",
+    "closure_request_note": "Case Is Resolved",
     "statutory_deadline": null,
     "filing_date": "2026-04-25",
     "created_at": "2026-04-25T08:54:15.456681+00:00",
-    "closed_at": null,
+    "closed_at": "2026-04-26T16:28:32.052033+00:00",
     "activity_log": [
       {
         "ts": "2026-04-25T08:54:15.456898+00:00",
@@ -226,9 +226,69 @@
         "role": "admin",
         "action": "case_updated",
         "message": "judge_id"
+      },
+      {
+        "ts": "2026-04-26T16:15:37.023597+00:00",
+        "actor_id": "05cf2b2b",
+        "role": "judge",
+        "action": "chamber_note",
+        "message": "Will Be Resolved Soon"
+      },
+      {
+        "ts": "2026-04-26T16:16:09.096358+00:00",
+        "actor_id": "05cf2b2b",
+        "role": "judge",
+        "action": "chamber_note",
+        "message": "Will Be Resolved Soon"
+      },
+      {
+        "ts": "2026-04-26T16:18:12.982472+00:00",
+        "actor_id": "05cf2b2b",
+        "role": "judge",
+        "action": "case_updated",
+        "message": "punishment"
+      },
+      {
+        "ts": "2026-04-26T16:21:26.477616+00:00",
+        "actor_id": "05cf2b2b",
+        "role": "judge",
+        "action": "case_updated",
+        "message": "verdict, closure_request_note, status"
+      },
+      {
+        "ts": "2026-04-26T16:22:40.778747+00:00",
+        "actor_id": "admin-fixed-token",
+        "role": "admin",
+        "action": "document_uploaded",
+        "message": "bd1a8482_megha murder.pdf"
+      },
+      {
+        "ts": "2026-04-26T16:23:02.079665+00:00",
+        "actor_id": "05cf2b2b",
+        "role": "judge",
+        "action": "case_updated",
+        "message": "summary"
+      },
+      {
+        "ts": "2026-04-26T16:28:32.052118+00:00",
+        "actor_id": "admin-fixed-token",
+        "role": "admin",
+        "action": "case_updated",
+        "message": "status"
       }
     ],
-    "chamber_notes": []
+    "chamber_notes": [
+      {
+        "ts": "2026-04-26T16:15:37.022738+00:00",
+        "author_id": "05cf2b2b",
+        "text": "Will Be Resolved Soon"
+      },
+      {
+        "ts": "2026-04-26T16:16:09.096194+00:00",
+        "author_id": "05cf2b2b",
+        "text": "Will Be Resolved Soon"
+      }
+    ]
   },
   {
     "id": "04b12d98",
@@ -373,6 +433,55 @@
         "role": "judge",
         "action": "case_updated",
         "message": "summary"
+      }
+    ],
+    "chamber_notes": []
+  },
+  {
+    "id": "ed6b3df4",
+    "case_number": "CASE-2026-FA-3747",
+    "title": "Tourture Case",
+    "plaintiff": "Sarita",
+    "defendant": "Rahul",
+    "court": "District Court \u2014 General Division",
+    "jurisdiction": "",
+    "user_id": "618eb77e",
+    "judge_id": "0b98bfc1",
+    "case_type": "family",
+    "urgency_factor": 15,
+    "workflow_stage": "assigned",
+    "status": "open",
+    "summary": "",
+    "punishment": "",
+    "verdict": "",
+    "pdf_path": "uploads\\ed6b3df4_sarita taurture.pdf",
+    "hearing_date": null,
+    "closure_request_note": "",
+    "statutory_deadline": "2026-04-17T23:59:59+00:00",
+    "filing_date": "2026-04-26",
+    "created_at": "2026-04-26T16:05:56.367499+00:00",
+    "closed_at": null,
+    "activity_log": [
+      {
+        "ts": "2026-04-26T16:05:56.371532+00:00",
+        "actor_id": "admin-fixed-token",
+        "role": "admin",
+        "action": "case_created",
+        "message": "Registered case CASE-2026-FA-3747: Tourture Case"
+      },
+      {
+        "ts": "2026-04-26T16:10:02.987121+00:00",
+        "actor_id": "admin-fixed-token",
+        "role": "admin",
+        "action": "document_uploaded",
+        "message": "ed6b3df4_sarita taurture.pdf"
+      },
+      {
+        "ts": "2026-04-26T16:10:43.415916+00:00",
+        "actor_id": "admin-fixed-token",
+        "role": "admin",
+        "action": "case_updated",
+        "message": "judge_id"
       }
     ],
     "chamber_notes": []

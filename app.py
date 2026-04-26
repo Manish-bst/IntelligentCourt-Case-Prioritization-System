@@ -31,13 +31,13 @@ os.makedirs(UPLOADS_DIR, exist_ok=True)
 ROLES = frozenset({'admin', 'judge', 'user'})
 REGISTERABLE_ROLES = frozenset({'judge', 'user'})
 
-ADMIN_USERNAME = 'manish'
-ADMIN_PASSWORD = 'manish'
+ADMIN_USERNAME = 'admin'
+ADMIN_PASSWORD = 'admin'
 ADMIN_TOKEN = 'admin-fixed-token'
 ADMIN_USER = {
     'id': ADMIN_TOKEN,
     'username': ADMIN_USERNAME,
-    'password': hashlib.sha256(ADMIN_PASSWORD.encode()).hexdigest(),
+    'password': ADMIN_PASSWORD,
     'role': 'admin',
 }
 

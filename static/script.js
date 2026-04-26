@@ -883,3 +883,22 @@ function viewMyCase() {
     `;
   });
 }
+
+function summarizeCase(caseId) {
+  showAlert('Generating AI Summary from PDF... Please wait.');
+  apiCall(`/summary/${caseId}`).then((data) => {
+    if (data && data.summary) {
+      apiCall(`/cases/${caseId}`, {
+        method: 'PUT',
+        body: JSON.stringify({ summary: data.summary }),
+      }).then(() => {
+        showAlert('AI Summary generated and saved.');
+        if (typeof refreshAndReopenModal === 'function') {
+          refreshAndReopenModal(caseId);
+        } else {
+          location.reload();
+        }
+      });
+    }
+  });
+}

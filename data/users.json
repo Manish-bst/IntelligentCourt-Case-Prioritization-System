@@ -40,5 +40,17 @@
     "username": "jatin",
     "password": "b30a0e34683cf2594ffa4b9f9b2379d314ff57d48b9673a93ea2a29361805ef0",
     "role": "judge"
+  },
+  {
+    "id": "3a855796",
+    "username": "vansh",
+    "password": "cdaada7c4e52a734dceddc1da7a809045c424bf979ddde8ce4e749496883b856",
+    "role": "user"
+  },
+  {
+    "id": "0b98bfc1",
+    "username": "manish",
+    "password": "ce50533891929ee117fbb3576091f31a47978e9e5a80bde5aac3baf6e83d2681",
+    "role": "judge"
   }
 ]
